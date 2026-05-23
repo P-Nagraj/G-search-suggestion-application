@@ -1,0 +1,125 @@
+
+/*.suggestion-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 12px;
+  list-style-type: none;
+}
+
+
+
+.suggestion-text {
+  font-size: 13px;
+  font-family: "Roboto";
+  color: #475569;
+  margin:0px;
+}
+
+
+.arrow-button {
+  border: none;
+  background: transparent;
+  cursor: pointer;
+   outline: none;
+   
+}
+
+
+.arrow {
+  width: 16px;
+  height: 16px;
+}
+
+
+/*
+   Small Devices (≥576px)
+ */
+/*
+@media screen and (min-width: 576px) {
+
+  .suggestion-text {
+    font-size: 14px;
+  }
+}
+
+
+/* 
+   Medium Devices (≥768px)
+ */
+
+/*@media screen and (min-width: 768px) {
+
+  .suggestion-text {
+    font-size: 14px;
+  }
+
+  .arrow {
+    width: 18px;
+    height: 18px;
+  }
+}
+
+
+/*
+   Large Devices (≥992px)
+ */
+
+/*@media screen and (min-width: 992px) {
+
+  .suggestion-text {
+    font-size: 16px;
+  }
+}
+
+
+/* 
+   Extra Large Devices (≥1200px)
+*/
+
+/*media screen and (min-width: 1200px) {
+
+  .suggestion-text {
+    font-size: 18px;
+  }
+}
+*/
+
+.suggestion-item {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 16px;
+  list-style-type: none;
+}
+
+.suggestion-text {
+  color: #475569;
+  font-family: 'Roboto';
+  font-size: 16px;
+  margin: 0;
+}
+
+@media screen and (min-width: 768px) {
+  .suggestion-text {
+    font-size: 20px;
+  }
+}
+
+.arrow-button {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.arrow {
+  height: 16px;
+  width: 16px;
+}
+
+@media screen and (min-width: 768px) {
+  .arrow {
+    height: 24px;
+    width: 24px;
+  }
+}

@@ -1,0 +1,266 @@
+
+
+/*.app-container {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  background-color: #ffffff;
+}
+
+
+.google-suggestions-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 125px;
+}
+
+
+
+.google-logo {
+  width: 140px;
+  margin-bottom: 20px;
+}
+
+.search-input-suggestions-container {
+  width: 100%;
+  max-width: 300px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px 0px #bfbfbf;
+  background-color: #ffffff;
+}
+
+
+.search-input-container {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+}
+
+
+.search-icon {
+  width: 16px;
+  height: 16px;
+}
+
+
+.search-input {
+  width: 100%;
+  border: none;
+  outline: none;
+  margin-left: 10px;
+  font-size: 14px;
+  font-family: "Roboto";
+}
+
+.suggestion-list {
+  list-style-type: none;
+  padding: 0 10px 10px 10px;
+  margin: 0;
+}
+
+
+/* 
+   Small Devices (≥576px)
+ */
+
+/*@media screen and (min-width: 576px) {
+
+  .google-logo {
+    width: 220px;
+  }
+
+  .search-input-suggestions-container {
+    max-width: 450px;
+  }
+
+  .search-input {
+    font-size: 16px;
+  }
+}
+
+
+/* 
+   Medium Devices (≥768px)
+ */
+
+/*@media screen and (min-width: 768px) {
+
+  .google-suggestions-container {
+    margin-top: 120px;
+  }
+
+  .google-logo {
+    width: 320px;
+  }
+
+  .search-input-suggestions-container {
+    max-width: 600px;
+    border-radius: 16px;
+  }
+
+  .search-icon {
+    width: 22px;
+    height: 22px;
+  }
+
+  .search-input {
+    font-size: 18px;
+  }
+}
+
+
+/* 
+   Large Devices (≥992px)
+*/
+
+/*@media screen and (min-width: 992px) {
+
+  .google-logo {
+    width: 400px;
+  }
+
+  .search-input-suggestions-container {
+    max-width: 750px;
+  }
+
+  .search-input {
+    font-size: 20px;
+  }
+}
+
+
+/* 
+   Extra Large Devices (≥1200px)
+ */
+
+/*@media screen and (min-width: 1200px) {
+
+  .google-logo {
+    width: 500px;
+  }
+
+  .search-input-suggestions-container {
+    max-width: 850px;
+  }
+
+  .search-input {
+    font-size: 22px;
+  }
+}
+
+*/
+.app-container {
+  display: flex;
+  justify-content: center;
+}
+
+.google-suggestions-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 125px;
+}
+
+@media screen and (min-width: 768px) {
+  .google-suggestions-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 250px;
+  }
+}
+
+.google-logo {
+  width: 150px;
+  height: 55px;
+}
+
+@media screen and (min-width: 768px) {
+  .google-logo {
+    width: 432px;
+    height: 140px;
+  }
+}
+
+.search-input-suggestions-container {
+  width: 300px;
+  border-radius: 12px;
+  margin-top: 24px;
+  box-shadow: 0px 0px 10px 0px #bfbfbf;
+}
+
+@media screen and (min-width: 768px) {
+  .search-input-suggestions-container {
+    width: 600px;
+    border-radius: 20px;
+    margin-top: 48px;
+  }
+}
+
+.search-input-container {
+  display: flex;
+  align-items: center;
+  padding-top: 4px;
+  padding-left: 8px;
+  padding-bottom: 4px;
+  padding-right: 8px;
+}
+
+@media screen and (min-width: 768px) {
+  .search-input-container {
+    display: flex;
+    align-items: center;
+    padding-top: 4px;
+    padding-left: 12px;
+    padding-bottom: 4px;
+    padding-right: 12px;
+  }
+}
+
+.search-icon {
+  width: 16px;
+  height: 16px;
+}
+
+@media screen and (min-width: 768px) {
+  .search-icon {
+    width: 24px;
+    height: 24px;
+  }
+}
+
+.search-input {
+  color: #64748b;
+  font-family: 'Roboto';
+  font-size: 16px;
+  width: 100%;
+  height: 40px;
+  border: none;
+  margin-left: 16px;
+  outline: none;
+}
+
+@media screen and (min-width: 768px) {
+  .search-input {
+    font-size: 20px;
+    height: 40px;
+    margin-left: 8px;
+  }
+}
+
+.suggestions-list {
+  padding-left: 12px;
+  padding-right: 16px;
+  padding-bottom: 12px;
+  margin: 0;
+}
+
+@media screen and (min-width: 768px) {
+  .suggestions-list {
+    padding-left: 24px;
+    padding-right: 32px;
+    padding-bottom: 24px;
+  }
+}
